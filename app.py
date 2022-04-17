@@ -1,5 +1,4 @@
 import streamlit as st
-from torch import initial_seed
 
 st.set_page_config(
     page_title="Compound Returns Calculator",
