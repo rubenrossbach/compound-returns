@@ -25,15 +25,15 @@ st.write("# Compound Return Calculator")
 
 # user input
 initial = st.number_input(
-    label='Inital Amount',
+    label='Initial Amount',
     value=0.0,
-    step=1.0
+    step=1000.0
     )
 
 savings = st.number_input(
     label='Monthly Savings',
     value=0.0,
-    step=1.0
+    step=100.0
     )
 
 savings_growth = st.number_input(
