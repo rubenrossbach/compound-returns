@@ -58,7 +58,7 @@ tax_rate = st.number_input(
 
 years = st.number_input(
     label='Number of Years',
-    value=0,
+    value=0.0,
     step=1
     )
 
@@ -122,3 +122,5 @@ if st.button('Calculate'):
     ax.legend()
     ax.set_xticks(df.index)
     st.pyplot(fig)
+
+# Made by Ruben Rossbach, GH LI
