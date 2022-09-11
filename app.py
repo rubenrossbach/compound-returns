@@ -58,7 +58,7 @@ tax_rate = st.number_input(
 
 years = st.number_input(
     label='Number of Years',
-    value=0.0,
+    value=0,
     step=1
     )
 
